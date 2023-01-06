@@ -1,2 +1,2 @@
 # Conjunctions
-Database with information on >10,000 conjunctions between space objects in Low-Earth Orbit occurred in 2022
+Matlab struct array containing data on 10,960 conjunction events occurred in 2022 between space objects in Low-Earth Orbit. Data for each conjunction includes: 1) the two objects' names (_string_), 2) objects' Norad numbers (_double_), 3) a Two-Line Element (TLE) set for each object (_string_), 4) the time difference (days) between each TLE epoch and the Time of Closest Approach (TCA) (double), which is necessary for propagating the objects' trajectories.
